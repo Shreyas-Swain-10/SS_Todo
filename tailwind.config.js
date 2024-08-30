@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      primary: MontSerrat
+      primary: 'MontSerrat'
     },
   },
   plugins: [],
