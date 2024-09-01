@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { TodoContext } from '../state/todoContext';
 import { Select, Box, Stack } from '@chakra-ui/react';
 
-function TodoFilter() {
+const TodoFilter = () => {
   const { filterTodos } = useContext(TodoContext);
   const [status, setStatus] = useState('All');
   const [type, setType] = useState('All');
